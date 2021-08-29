@@ -33,7 +33,7 @@ public class Dudu extends JFrame implements MouseListener, ActionListener {
 	private JLabel lblScore;
 	private JLabel lblTimeLeft;
 
-	private int timeLeft = 30;
+	private int timeLeft = 10;
 
 	private JButton btnStart;
 	private JButton btnEnd;
@@ -244,7 +244,7 @@ public class Dudu extends JFrame implements MouseListener, ActionListener {
 				introMusic = new Music("mp3", true);
 				introMusic.start();
 				score = 0;
-				timeLeft = 30;
+				timeLeft = 10;
 				lblScore.setText("Score: 0");
 				btnStart.setEnabled(false);
 				clearBoard();
